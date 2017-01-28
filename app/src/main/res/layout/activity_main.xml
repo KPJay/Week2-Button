@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.priya.week2_button.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Counter"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:layout_weight="0.08" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="CLICK ME!"
+        android:onClick="mOnClick"
+        android:layout_weight="0.10"
+        android:elevation="10dp"
+        style="@style/Widget.AppCompat.Button"
+        android:background="@color/colorPrimaryDark"
+        android:textColorLink="@android:color/white"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
